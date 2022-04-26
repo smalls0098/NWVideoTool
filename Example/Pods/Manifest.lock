@@ -1,0 +1,16 @@
+PODS:
+  - NWVideoTool (0.1.0)
+
+DEPENDENCIES:
+  - NWVideoTool (from `../`)
+
+EXTERNAL SOURCES:
+  NWVideoTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NWVideoTool: d528705af8be877c815f0cfc8d75aa21c6805f78
+
+PODFILE CHECKSUM: a2319368a94ade1e3629f9542ebd5450bfc8187a
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,6 @@
+framework module NWVideoTool {
+  umbrella header "NWVideoTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

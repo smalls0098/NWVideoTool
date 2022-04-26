@@ -1,0 +1,1047 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000CF4DF74622E299EA7E0E5C24FBC45 /* range_slider_start_indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = F478C8FAAB8189932394932E47854058 /* range_slider_start_indicator.png */; };
+		03B3DC437156F66ACE5C1B9BD11A2CBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3447B6A50AA430A059E8197DFCDA88F /* UIKit.framework */; };
+		054BD1319F0AC143E492041F6F688688 /* range_slider_end_indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = 319137FF91BDEBA998BB3BFA63A92AD1 /* range_slider_end_indicator.png */; };
+		07D299F9ED928ABE9FFD3A91A49E6AF2 /* sticker_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9C23EBD0BDD5F7DC4C1BC493EF418F /* sticker_close@2x.png */; };
+		088CA8D29D60D64C7111B6186ECFB3EB /* sticker_adjust.png in Resources */ = {isa = PBXBuildFile; fileRef = B5937A5ECDA96B33C4E120C147E82777 /* sticker_adjust.png */; };
+		32FAFDE5503B08C94F33453D22F1F1EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */; };
+		343D49FDDCFED7E3ABCB5B25750C1B86 /* rw_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 326B4461B0A4D37EBD9A36EB9E416CD5 /* rw_close@2x.png */; };
+		36EA4DDAA1D8CBCB491387311898281D /* NWVideoScrollProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6DB7CF7F747676734CC90A09CDC1B4 /* NWVideoScrollProgressView.swift */; };
+		38A511E739278D0E3A59F2082B6B74FB /* range_slider_end_indicator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09B0BC311C6DE9F85209909D2D87A57D /* range_slider_end_indicator@2x.png */; };
+		3D555E863D4EBB13BFFDA1C8AAFBE3AF /* Pods-NWVideoTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE192C016B39B0309CF7C4E9B214FFCF /* Pods-NWVideoTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41B7BB49EC5B42D23847E1385B187916 /* rw_close.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D03BD2BC1571C0F25DEB65F5022356 /* rw_close.png */; };
+		4689E55FE902FE6B77507CE044BE15A1 /* Pods-NWVideoTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCEA9F0FD0EE26F44B4EF3C5340BA03 /* Pods-NWVideoTool_Tests-dummy.m */; };
+		5180A421725F9F5F388FF62AF16F0C1F /* Pods-NWVideoTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DCBA426404C80E87537491A4AF3D46 /* Pods-NWVideoTool_Example-dummy.m */; };
+		51924BD062D5D1920CCD4BBC4180B2CB /* NWClipOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E9E4D378A793A13392096905CD5D59 /* NWClipOverlayView.swift */; };
+		56A177AAF4DDC2432CD9862F7B3E7743 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */; };
+		5BE1A008A43E4E135EA011C96428642A /* range_slider_end_indicator@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C30FA3A1D57C885D813BB464F9DBF9 /* range_slider_end_indicator@3x.png */; };
+		5C008EC16997F70FD213FBA10BA35430 /* NWRemoveWaterBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B14CB299B2F2BD5F140D3B65AAA9A16 /* NWRemoveWaterBlockView.swift */; };
+		64B738F0BFEF6B60F62F6120098B8091 /* NWVideoTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97A230C88046273D03B75B81E84D0EB /* NWVideoTool.swift */; };
+		6D922FBD7EBEEE479A367DC795E44B1F /* Bundle+NWV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AE127F3A58AB4141431CDAD0AF3C6C /* Bundle+NWV.swift */; };
+		75A9BBA6386924C3E9FA4A7EA0A6EE2F /* UIImage+NWV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29391BF967F811D6B5E0F90D70442541 /* UIImage+NWV.swift */; };
+		79DE6781BFC102AE6DF241ABED25269F /* UIColor+NWV.swift in Sources */ = {isa = PBXBuildFile; fileRef = F515484E952070A1969DDD5B1DF1FC62 /* UIColor+NWV.swift */; };
+		80DD326EE23E4EE126555881D61C2930 /* NWVideoTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E500FBCD5589390339C4F788BB36F8 /* NWVideoTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8244C62F28159DFD00FD9C68 /* NWVideoProgressImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8244C62E28159DFD00FD9C68 /* NWVideoProgressImageView.swift */; };
+		8244C63128159F7000FD9C68 /* NWDispatchQueuePool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8244C63028159F7000FD9C68 /* NWDispatchQueuePool.swift */; };
+		83169ED7187D3838CDEDAF2C64C99C15 /* range_slider_start_indicator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EB569ACD662B2DDA2601866348D8944 /* range_slider_start_indicator@2x.png */; };
+		91699844832C7FAF7ACEEC27640EFCE1 /* sticker_adjust@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 830F55E6121FF0B5D97E6AA83B06E94D /* sticker_adjust@2x.png */; };
+		996F8C4618B2864C4B1A70AE4E3D76F5 /* Pods-NWVideoTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE8A5C24CB2E68C219B4C0FFC0AE1B78 /* Pods-NWVideoTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7ED6E9713FA1652B1E2E7B437F6F40F /* NWVideoTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A789BC8936ECFEE1DB69F8AF1150372 /* NWVideoTool-dummy.m */; };
+		AA579E23C1FBF8A6D9ED6E807C73BFE4 /* rw_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B51DC8FA827A54CFAFD9922A11D1758E /* rw_close@3x.png */; };
+		AC9791BA60E8AFC52D0BDA9788B271BE /* NWStickerItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D16111185EB06A4B7E45C0D585CED9A /* NWStickerItemView.swift */; };
+		B0CBFEBA2BC8EA11CBBE8062F0D3DDD6 /* NWVideoTool-NWVideoTool in Resources */ = {isa = PBXBuildFile; fileRef = 391F30FF1D628FA08CDC0BE156E22096 /* NWVideoTool-NWVideoTool */; };
+		B39E53FA1ACDC126883E1A5D6B243E51 /* NWClipVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BD7EBAA08D0EAF5A01E1A45A419BE9 /* NWClipVideoView.swift */; };
+		BFEDA1CB09841DAF510F3313A83854F8 /* NWImageStickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9AE83D1D41735E655898D53EBA98F6 /* NWImageStickerView.swift */; };
+		C20E9DF37B6AF8ADF14DE69C67E2A56B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */; };
+		C7FD96037A0759700C09C180A2E7D114 /* NWStickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D61477F5C85F68E713F4AD1CD46E169 /* NWStickerView.swift */; };
+		CA8DC30F0BA9C2F852F0670683B0EBE2 /* sticker_adjust@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0382E535A18A326C6A0D0C79F14DAFCE /* sticker_adjust@3x.png */; };
+		D10831219F51FFF32412CE7E11D3205D /* range_slider_start_indicator@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4AE54CFCD556F83415B35A5B718494 /* range_slider_start_indicator@3x.png */; };
+		D706F45D7BA6A84FE39D0DDF04752819 /* sticker_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 6963165C682F200D21DB086480D2DEE2 /* sticker_close.png */; };
+		D71E06EEBF04EE38993B686BD89255C3 /* sticker_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A07FFB1BD10966D64A2C293FE2D462 /* sticker_close@3x.png */; };
+		E32DB604640A98AB8CDFE355DFFF5B8E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9DAEBAF7204BA39B34CF7E0E8FCFD7 /* AVFoundation.framework */; };
+		E9BC4019E2E1E2AE09559EF2EE0F6EE0 /* NWRemoveWaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51446079E4834059FB74AA9FFDD6C3D0 /* NWRemoveWaterView.swift */; };
+		ED207666F22859A06AF8919C09EF7E0A /* NWVideoRangeSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D907B8EC3120E8DF4AF48CD74FFD9 /* NWVideoRangeSliderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A0F537C2DCED0EE47F9F17B89276BDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32E0B203668CCDE4FCBC21CB6973D571;
+			remoteInfo = "NWVideoTool-NWVideoTool";
+		};
+		CE978BFB32984F8B1AA6AB0A2835FA89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61B9459352D985DB9F17F11C31ED5123;
+			remoteInfo = NWVideoTool;
+		};
+		EAD7E3F4F4C8F0F5F4573F532CDDEFED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 357761BD386CB29EC54529B3B8B70980;
+			remoteInfo = "Pods-NWVideoTool_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0382E535A18A326C6A0D0C79F14DAFCE /* sticker_adjust@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "sticker_adjust@3x.png"; path = "NWVideoTool/Assets/sticker_adjust@3x.png"; sourceTree = "<group>"; };
+		05001C99AEA19BAF63B5FAC050DA2837 /* NWVideoTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NWVideoTool-Info.plist"; sourceTree = "<group>"; };
+		0594B27520DEAB3392A07F35F8FF1B7B /* Pods-NWVideoTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NWVideoTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		09B0BC311C6DE9F85209909D2D87A57D /* range_slider_end_indicator@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "range_slider_end_indicator@2x.png"; path = "NWVideoTool/Assets/range_slider_end_indicator@2x.png"; sourceTree = "<group>"; };
+		18145D515B97D4829A582FE654968200 /* NWVideoTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NWVideoTool-prefix.pch"; sourceTree = "<group>"; };
+		1A789BC8936ECFEE1DB69F8AF1150372 /* NWVideoTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NWVideoTool-dummy.m"; sourceTree = "<group>"; };
+		1EB569ACD662B2DDA2601866348D8944 /* range_slider_start_indicator@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "range_slider_start_indicator@2x.png"; path = "NWVideoTool/Assets/range_slider_start_indicator@2x.png"; sourceTree = "<group>"; };
+		1EFFA22BE3BFDA53273D0EFE7E4D3769 /* ResourceBundle-NWVideoTool-NWVideoTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NWVideoTool-NWVideoTool-Info.plist"; sourceTree = "<group>"; };
+		1F9DAEBAF7204BA39B34CF7E0E8FCFD7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		2176EA032FBA6A2DC6F755B944D475BD /* Pods-NWVideoTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NWVideoTool_Tests-Info.plist"; sourceTree = "<group>"; };
+		25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		29391BF967F811D6B5E0F90D70442541 /* UIImage+NWV.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+NWV.swift"; sourceTree = "<group>"; };
+		2D61477F5C85F68E713F4AD1CD46E169 /* NWStickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NWStickerView.swift; sourceTree = "<group>"; };
+		30E500FBCD5589390339C4F788BB36F8 /* NWVideoTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NWVideoTool-umbrella.h"; sourceTree = "<group>"; };
+		319137FF91BDEBA998BB3BFA63A92AD1 /* range_slider_end_indicator.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = range_slider_end_indicator.png; path = NWVideoTool/Assets/range_slider_end_indicator.png; sourceTree = "<group>"; };
+		326B4461B0A4D37EBD9A36EB9E416CD5 /* rw_close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rw_close@2x.png"; path = "NWVideoTool/Assets/rw_close@2x.png"; sourceTree = "<group>"; };
+		37C30FA3A1D57C885D813BB464F9DBF9 /* range_slider_end_indicator@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "range_slider_end_indicator@3x.png"; path = "NWVideoTool/Assets/range_slider_end_indicator@3x.png"; sourceTree = "<group>"; };
+		391F30FF1D628FA08CDC0BE156E22096 /* NWVideoTool-NWVideoTool */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "NWVideoTool-NWVideoTool"; path = NWVideoTool.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		392FEBFF07E9B5C556B5AFC1C4EB2C41 /* Pods-NWVideoTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NWVideoTool_Example-Info.plist"; sourceTree = "<group>"; };
+		3B14CB299B2F2BD5F140D3B65AAA9A16 /* NWRemoveWaterBlockView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NWRemoveWaterBlockView.swift; sourceTree = "<group>"; };
+		3F9C23EBD0BDD5F7DC4C1BC493EF418F /* sticker_close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "sticker_close@2x.png"; path = "NWVideoTool/Assets/sticker_close@2x.png"; sourceTree = "<group>"; };
+		40DCBA426404C80E87537491A4AF3D46 /* Pods-NWVideoTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NWVideoTool_Example-dummy.m"; sourceTree = "<group>"; };
+		48AE127F3A58AB4141431CDAD0AF3C6C /* Bundle+NWV.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bundle+NWV.swift"; sourceTree = "<group>"; };
+		51446079E4834059FB74AA9FFDD6C3D0 /* NWRemoveWaterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NWRemoveWaterView.swift; sourceTree = "<group>"; };
+		5B0563F5871B899E3365C6EF70D6B279 /* Pods-NWVideoTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NWVideoTool_Tests.modulemap"; sourceTree = "<group>"; };
+		5B0D29BE32153ED91F2292047A72318A /* NWVideoTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NWVideoTool.release.xcconfig; sourceTree = "<group>"; };
+		5B4AE54CFCD556F83415B35A5B718494 /* range_slider_start_indicator@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "range_slider_start_indicator@3x.png"; path = "NWVideoTool/Assets/range_slider_start_indicator@3x.png"; sourceTree = "<group>"; };
+		5E0C1915BFDEFBA27CDDF9D30784E50C /* Pods-NWVideoTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NWVideoTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		66A07FFB1BD10966D64A2C293FE2D462 /* sticker_close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "sticker_close@3x.png"; path = "NWVideoTool/Assets/sticker_close@3x.png"; sourceTree = "<group>"; };
+		69473902353901DE8623723E80FF5CB4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6963165C682F200D21DB086480D2DEE2 /* sticker_close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = sticker_close.png; path = NWVideoTool/Assets/sticker_close.png; sourceTree = "<group>"; };
+		6BCEA9F0FD0EE26F44B4EF3C5340BA03 /* Pods-NWVideoTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NWVideoTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		796DC56BC11F55EFFF197EEE1DE31041 /* NWVideoTool */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NWVideoTool; path = NWVideoTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D16111185EB06A4B7E45C0D585CED9A /* NWStickerItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NWStickerItemView.swift; sourceTree = "<group>"; };
+		8244C62E28159DFD00FD9C68 /* NWVideoProgressImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWVideoProgressImageView.swift; sourceTree = "<group>"; };
+		8244C63028159F7000FD9C68 /* NWDispatchQueuePool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWDispatchQueuePool.swift; sourceTree = "<group>"; };
+		830F55E6121FF0B5D97E6AA83B06E94D /* sticker_adjust@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "sticker_adjust@2x.png"; path = "NWVideoTool/Assets/sticker_adjust@2x.png"; sourceTree = "<group>"; };
+		90F9FECA64180EC070C28D8ED41E234E /* Pods-NWVideoTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NWVideoTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		91E9E4D378A793A13392096905CD5D59 /* NWClipOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NWClipOverlayView.swift; sourceTree = "<group>"; };
+		9870E6EBDFF5734E16822C588510CE70 /* Pods-NWVideoTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NWVideoTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9B9AE83D1D41735E655898D53EBA98F6 /* NWImageStickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NWImageStickerView.swift; sourceTree = "<group>"; };
+		9C6CC8CCE604B2BAE5403374E507F834 /* Pods-NWVideoTool_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NWVideoTool_Tests"; path = Pods_NWVideoTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E1351812E039BDD8087E4C668916932 /* NWVideoTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NWVideoTool.debug.xcconfig; sourceTree = "<group>"; };
+		9FDF1DE1B8BA17F6008DAFC2E27F6BAA /* Pods-NWVideoTool_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NWVideoTool_Example"; path = Pods_NWVideoTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15B59D52C5947EA56B3C124EB5765D4 /* NWVideoTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NWVideoTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A47062E08722B1D7CD4E42F31B4BCEB3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A5BD7EBAA08D0EAF5A01E1A45A419BE9 /* NWClipVideoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NWClipVideoView.swift; sourceTree = "<group>"; };
+		B4B9A6F505F2A10414CA9942486A7A8B /* Pods-NWVideoTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NWVideoTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B51DC8FA827A54CFAFD9922A11D1758E /* rw_close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rw_close@3x.png"; path = "NWVideoTool/Assets/rw_close@3x.png"; sourceTree = "<group>"; };
+		B5937A5ECDA96B33C4E120C147E82777 /* sticker_adjust.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = sticker_adjust.png; path = NWVideoTool/Assets/sticker_adjust.png; sourceTree = "<group>"; };
+		B5D03BD2BC1571C0F25DEB65F5022356 /* rw_close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rw_close.png; path = NWVideoTool/Assets/rw_close.png; sourceTree = "<group>"; };
+		BC6DB7CF7F747676734CC90A09CDC1B4 /* NWVideoScrollProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NWVideoScrollProgressView.swift; sourceTree = "<group>"; };
+		BE8A5C24CB2E68C219B4C0FFC0AE1B78 /* Pods-NWVideoTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NWVideoTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BF59020B307743FC1BF16FBB0EDA92FE /* Pods-NWVideoTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NWVideoTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE192C016B39B0309CF7C4E9B214FFCF /* Pods-NWVideoTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NWVideoTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		CF3D907B8EC3120E8DF4AF48CD74FFD9 /* NWVideoRangeSliderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NWVideoRangeSliderView.swift; sourceTree = "<group>"; };
+		D25193F0DB417A18DE02FFF9B7A627F9 /* Pods-NWVideoTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NWVideoTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D97A230C88046273D03B75B81E84D0EB /* NWVideoTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NWVideoTool.swift; path = NWVideoTool/Classes/NWVideoTool.swift; sourceTree = "<group>"; };
+		DFE80026C211A4D9CCEF8C4A7B6CE5D2 /* Pods-NWVideoTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NWVideoTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3447B6A50AA430A059E8197DFCDA88F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EC2179DE35AA5B9CABF76C4BEEF4A14D /* Pods-NWVideoTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NWVideoTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F478C8FAAB8189932394932E47854058 /* range_slider_start_indicator.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = range_slider_start_indicator.png; path = NWVideoTool/Assets/range_slider_start_indicator.png; sourceTree = "<group>"; };
+		F515484E952070A1969DDD5B1DF1FC62 /* UIColor+NWV.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+NWV.swift"; sourceTree = "<group>"; };
+		FA38660BF0B6A376BC121CF9177E6337 /* Pods-NWVideoTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NWVideoTool_Example.modulemap"; sourceTree = "<group>"; };
+		FD00B20A6DC72D76E3E30866911BFB14 /* NWVideoTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NWVideoTool.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		063FB2A23E17270FA35D9DB7BE668E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641E7A9D69194136CD2190B0B6CCB287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20E9DF37B6AF8ADF14DE69C67E2A56B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF3D392FA7672502482F4F8FB20FE74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FAFDE5503B08C94F33453D22F1F1EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDDC7EFC5E9E3BDDCA14B69DDF2FD172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32DB604640A98AB8CDFE355DFFF5B8E /* AVFoundation.framework in Frameworks */,
+				56A177AAF4DDC2432CD9862F7B3E7743 /* Foundation.framework in Frameworks */,
+				03B3DC437156F66ACE5C1B9BD11A2CBC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				439889605EFAD97B3872FAF274DF229F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09E8BC24E699E97A764560A1FE46F027 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD00B20A6DC72D76E3E30866911BFB14 /* NWVideoTool.modulemap */,
+				1A789BC8936ECFEE1DB69F8AF1150372 /* NWVideoTool-dummy.m */,
+				05001C99AEA19BAF63B5FAC050DA2837 /* NWVideoTool-Info.plist */,
+				18145D515B97D4829A582FE654968200 /* NWVideoTool-prefix.pch */,
+				30E500FBCD5589390339C4F788BB36F8 /* NWVideoTool-umbrella.h */,
+				9E1351812E039BDD8087E4C668916932 /* NWVideoTool.debug.xcconfig */,
+				5B0D29BE32153ED91F2292047A72318A /* NWVideoTool.release.xcconfig */,
+				1EFFA22BE3BFDA53273D0EFE7E4D3769 /* ResourceBundle-NWVideoTool-NWVideoTool-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NWVideoTool";
+			sourceTree = "<group>";
+		};
+		20E727181933519CBBF87D5C82485C17 /* NWVideoProgress */ = {
+			isa = PBXGroup;
+			children = (
+				BC6DB7CF7F747676734CC90A09CDC1B4 /* NWVideoScrollProgressView.swift */,
+				8244C62E28159DFD00FD9C68 /* NWVideoProgressImageView.swift */,
+				8244C63028159F7000FD9C68 /* NWDispatchQueuePool.swift */,
+			);
+			name = NWVideoProgress;
+			path = NWVideoTool/Classes/NWVideoProgress;
+			sourceTree = "<group>";
+		};
+		211E5514F150D9DE335BEC64AC9528B8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				69473902353901DE8623723E80FF5CB4 /* LICENSE */,
+				A15B59D52C5947EA56B3C124EB5765D4 /* NWVideoTool.podspec */,
+				A47062E08722B1D7CD4E42F31B4BCEB3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3B67D8C21E90E01ADB19FB94F353080B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA2AADC0674C90C0523949558B9D698A /* NWVideoTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		439889605EFAD97B3872FAF274DF229F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1F9DAEBAF7204BA39B34CF7E0E8FCFD7 /* AVFoundation.framework */,
+				25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */,
+				E3447B6A50AA430A059E8197DFCDA88F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		79D4BFD4DBFA61B5ED711EE387682B84 /* NWSticker */ = {
+			isa = PBXGroup;
+			children = (
+				9B9AE83D1D41735E655898D53EBA98F6 /* NWImageStickerView.swift */,
+				7D16111185EB06A4B7E45C0D585CED9A /* NWStickerItemView.swift */,
+				2D61477F5C85F68E713F4AD1CD46E169 /* NWStickerView.swift */,
+			);
+			name = NWSticker;
+			path = NWVideoTool/Classes/NWSticker;
+			sourceTree = "<group>";
+		};
+		8EA9D7AFF1C7230461C696853F3A5697 /* NWVideoRangeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				CF3D907B8EC3120E8DF4AF48CD74FFD9 /* NWVideoRangeSliderView.swift */,
+			);
+			name = NWVideoRangeSlider;
+			path = NWVideoTool/Classes/NWVideoRangeSlider;
+			sourceTree = "<group>";
+		};
+		995583C4AEF3504188B6666655A0FEDC /* NWClipVideo */ = {
+			isa = PBXGroup;
+			children = (
+				91E9E4D378A793A13392096905CD5D59 /* NWClipOverlayView.swift */,
+				A5BD7EBAA08D0EAF5A01E1A45A419BE9 /* NWClipVideoView.swift */,
+			);
+			name = NWClipVideo;
+			path = NWVideoTool/Classes/NWClipVideo;
+			sourceTree = "<group>";
+		};
+		9DCCC7081450E13CC6701932DECB045C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				48AE127F3A58AB4141431CDAD0AF3C6C /* Bundle+NWV.swift */,
+				F515484E952070A1969DDD5B1DF1FC62 /* UIColor+NWV.swift */,
+				29391BF967F811D6B5E0F90D70442541 /* UIImage+NWV.swift */,
+			);
+			name = Extension;
+			path = NWVideoTool/Classes/Extension;
+			sourceTree = "<group>";
+		};
+		BA2AADC0674C90C0523949558B9D698A /* NWVideoTool */ = {
+			isa = PBXGroup;
+			children = (
+				D97A230C88046273D03B75B81E84D0EB /* NWVideoTool.swift */,
+				319137FF91BDEBA998BB3BFA63A92AD1 /* range_slider_end_indicator.png */,
+				09B0BC311C6DE9F85209909D2D87A57D /* range_slider_end_indicator@2x.png */,
+				37C30FA3A1D57C885D813BB464F9DBF9 /* range_slider_end_indicator@3x.png */,
+				F478C8FAAB8189932394932E47854058 /* range_slider_start_indicator.png */,
+				1EB569ACD662B2DDA2601866348D8944 /* range_slider_start_indicator@2x.png */,
+				5B4AE54CFCD556F83415B35A5B718494 /* range_slider_start_indicator@3x.png */,
+				B5D03BD2BC1571C0F25DEB65F5022356 /* rw_close.png */,
+				326B4461B0A4D37EBD9A36EB9E416CD5 /* rw_close@2x.png */,
+				B51DC8FA827A54CFAFD9922A11D1758E /* rw_close@3x.png */,
+				B5937A5ECDA96B33C4E120C147E82777 /* sticker_adjust.png */,
+				830F55E6121FF0B5D97E6AA83B06E94D /* sticker_adjust@2x.png */,
+				0382E535A18A326C6A0D0C79F14DAFCE /* sticker_adjust@3x.png */,
+				6963165C682F200D21DB086480D2DEE2 /* sticker_close.png */,
+				3F9C23EBD0BDD5F7DC4C1BC493EF418F /* sticker_close@2x.png */,
+				66A07FFB1BD10966D64A2C293FE2D462 /* sticker_close@3x.png */,
+				9DCCC7081450E13CC6701932DECB045C /* Extension */,
+				995583C4AEF3504188B6666655A0FEDC /* NWClipVideo */,
+				D250D415177386DBAB3D3D566F3AC335 /* NWRemoveWater */,
+				79D4BFD4DBFA61B5ED711EE387682B84 /* NWSticker */,
+				20E727181933519CBBF87D5C82485C17 /* NWVideoProgress */,
+				8EA9D7AFF1C7230461C696853F3A5697 /* NWVideoRangeSlider */,
+				211E5514F150D9DE335BEC64AC9528B8 /* Pod */,
+				09E8BC24E699E97A764560A1FE46F027 /* Support Files */,
+			);
+			name = NWVideoTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C1789ECB70190A77FFC4C56526CAF968 /* Pods-NWVideoTool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FA38660BF0B6A376BC121CF9177E6337 /* Pods-NWVideoTool_Example.modulemap */,
+				D25193F0DB417A18DE02FFF9B7A627F9 /* Pods-NWVideoTool_Example-acknowledgements.markdown */,
+				0594B27520DEAB3392A07F35F8FF1B7B /* Pods-NWVideoTool_Example-acknowledgements.plist */,
+				40DCBA426404C80E87537491A4AF3D46 /* Pods-NWVideoTool_Example-dummy.m */,
+				9870E6EBDFF5734E16822C588510CE70 /* Pods-NWVideoTool_Example-frameworks.sh */,
+				392FEBFF07E9B5C556B5AFC1C4EB2C41 /* Pods-NWVideoTool_Example-Info.plist */,
+				CE192C016B39B0309CF7C4E9B214FFCF /* Pods-NWVideoTool_Example-umbrella.h */,
+				90F9FECA64180EC070C28D8ED41E234E /* Pods-NWVideoTool_Example.debug.xcconfig */,
+				B4B9A6F505F2A10414CA9942486A7A8B /* Pods-NWVideoTool_Example.release.xcconfig */,
+			);
+			name = "Pods-NWVideoTool_Example";
+			path = "Target Support Files/Pods-NWVideoTool_Example";
+			sourceTree = "<group>";
+		};
+		C1C0CC819A401D26B352ABD9C7AE5C60 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1789ECB70190A77FFC4C56526CAF968 /* Pods-NWVideoTool_Example */,
+				DF73D846A4D3D564012AB6CAC51A0EEF /* Pods-NWVideoTool_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3B67D8C21E90E01ADB19FB94F353080B /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				E12F8B9734CEAE1045B655F9030AF7D1 /* Products */,
+				C1C0CC819A401D26B352ABD9C7AE5C60 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D250D415177386DBAB3D3D566F3AC335 /* NWRemoveWater */ = {
+			isa = PBXGroup;
+			children = (
+				3B14CB299B2F2BD5F140D3B65AAA9A16 /* NWRemoveWaterBlockView.swift */,
+				51446079E4834059FB74AA9FFDD6C3D0 /* NWRemoveWaterView.swift */,
+			);
+			name = NWRemoveWater;
+			path = NWVideoTool/Classes/NWRemoveWater;
+			sourceTree = "<group>";
+		};
+		DF73D846A4D3D564012AB6CAC51A0EEF /* Pods-NWVideoTool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5B0563F5871B899E3365C6EF70D6B279 /* Pods-NWVideoTool_Tests.modulemap */,
+				DFE80026C211A4D9CCEF8C4A7B6CE5D2 /* Pods-NWVideoTool_Tests-acknowledgements.markdown */,
+				5E0C1915BFDEFBA27CDDF9D30784E50C /* Pods-NWVideoTool_Tests-acknowledgements.plist */,
+				6BCEA9F0FD0EE26F44B4EF3C5340BA03 /* Pods-NWVideoTool_Tests-dummy.m */,
+				2176EA032FBA6A2DC6F755B944D475BD /* Pods-NWVideoTool_Tests-Info.plist */,
+				BE8A5C24CB2E68C219B4C0FFC0AE1B78 /* Pods-NWVideoTool_Tests-umbrella.h */,
+				BF59020B307743FC1BF16FBB0EDA92FE /* Pods-NWVideoTool_Tests.debug.xcconfig */,
+				EC2179DE35AA5B9CABF76C4BEEF4A14D /* Pods-NWVideoTool_Tests.release.xcconfig */,
+			);
+			name = "Pods-NWVideoTool_Tests";
+			path = "Target Support Files/Pods-NWVideoTool_Tests";
+			sourceTree = "<group>";
+		};
+		E12F8B9734CEAE1045B655F9030AF7D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				796DC56BC11F55EFFF197EEE1DE31041 /* NWVideoTool */,
+				391F30FF1D628FA08CDC0BE156E22096 /* NWVideoTool-NWVideoTool */,
+				9FDF1DE1B8BA17F6008DAFC2E27F6BAA /* Pods-NWVideoTool_Example */,
+				9C6CC8CCE604B2BAE5403374E507F834 /* Pods-NWVideoTool_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2E0A8B4464970C6F8879FA3E6A3F69CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				996F8C4618B2864C4B1A70AE4E3D76F5 /* Pods-NWVideoTool_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72C4C52C24F4183105C9389DB9604A5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80DD326EE23E4EE126555881D61C2930 /* NWVideoTool-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CE074E9977A6C53D79661569AD58EBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D555E863D4EBB13BFFDA1C8AAFBE3AF /* Pods-NWVideoTool_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		264B7413B2330EF5585A2B201ABE355F /* Pods-NWVideoTool_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE0D08468B355DE5C647BE0E8EE99F8D /* Build configuration list for PBXNativeTarget "Pods-NWVideoTool_Tests" */;
+			buildPhases = (
+				2E0A8B4464970C6F8879FA3E6A3F69CF /* Headers */,
+				DEB9E0FF869908C84D1D62143C950F62 /* Sources */,
+				641E7A9D69194136CD2190B0B6CCB287 /* Frameworks */,
+				00A14B780C77248EF767861754E1F9F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD441AC375F521EA7CC3980128C97A62 /* PBXTargetDependency */,
+			);
+			name = "Pods-NWVideoTool_Tests";
+			productName = Pods_NWVideoTool_Tests;
+			productReference = 9C6CC8CCE604B2BAE5403374E507F834 /* Pods-NWVideoTool_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		32E0B203668CCDE4FCBC21CB6973D571 /* NWVideoTool-NWVideoTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D54199AB9A951AFE9DB870CA541F53 /* Build configuration list for PBXNativeTarget "NWVideoTool-NWVideoTool" */;
+			buildPhases = (
+				697930D221ABAB0580E4640FBB2B63AA /* Sources */,
+				063FB2A23E17270FA35D9DB7BE668E4B /* Frameworks */,
+				9098FC32EC0107C80DD5C9145436EF01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NWVideoTool-NWVideoTool";
+			productName = NWVideoTool;
+			productReference = 391F30FF1D628FA08CDC0BE156E22096 /* NWVideoTool-NWVideoTool */;
+			productType = "com.apple.product-type.bundle";
+		};
+		357761BD386CB29EC54529B3B8B70980 /* Pods-NWVideoTool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9209460E138F13E52DA5C307180B7D3 /* Build configuration list for PBXNativeTarget "Pods-NWVideoTool_Example" */;
+			buildPhases = (
+				9CE074E9977A6C53D79661569AD58EBF /* Headers */,
+				2FAF879E33A96CC4517FC2EA14AE8C7E /* Sources */,
+				ECF3D392FA7672502482F4F8FB20FE74 /* Frameworks */,
+				4FC0770192DDD52EF21963EA247D5AD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86EF6CCC8B77748E0C204201DF648754 /* PBXTargetDependency */,
+			);
+			name = "Pods-NWVideoTool_Example";
+			productName = Pods_NWVideoTool_Example;
+			productReference = 9FDF1DE1B8BA17F6008DAFC2E27F6BAA /* Pods-NWVideoTool_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		61B9459352D985DB9F17F11C31ED5123 /* NWVideoTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54273BA8797D8C6E8B537690B206FDE5 /* Build configuration list for PBXNativeTarget "NWVideoTool" */;
+			buildPhases = (
+				72C4C52C24F4183105C9389DB9604A5B /* Headers */,
+				C1C4E3E70825C686FB80A230B1EE30BA /* Sources */,
+				EDDC7EFC5E9E3BDDCA14B69DDF2FD172 /* Frameworks */,
+				38F8DE994D61C54E6AFC30C1378829AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AA1310463944E81E4D4577CDC8B8B64 /* PBXTargetDependency */,
+			);
+			name = NWVideoTool;
+			productName = NWVideoTool;
+			productReference = 796DC56BC11F55EFFF197EEE1DE31041 /* NWVideoTool */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E12F8B9734CEAE1045B655F9030AF7D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61B9459352D985DB9F17F11C31ED5123 /* NWVideoTool */,
+				32E0B203668CCDE4FCBC21CB6973D571 /* NWVideoTool-NWVideoTool */,
+				357761BD386CB29EC54529B3B8B70980 /* Pods-NWVideoTool_Example */,
+				264B7413B2330EF5585A2B201ABE355F /* Pods-NWVideoTool_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00A14B780C77248EF767861754E1F9F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38F8DE994D61C54E6AFC30C1378829AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CBFEBA2BC8EA11CBBE8062F0D3DDD6 /* NWVideoTool-NWVideoTool in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC0770192DDD52EF21963EA247D5AD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9098FC32EC0107C80DD5C9145436EF01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054BD1319F0AC143E492041F6F688688 /* range_slider_end_indicator.png in Resources */,
+				38A511E739278D0E3A59F2082B6B74FB /* range_slider_end_indicator@2x.png in Resources */,
+				5BE1A008A43E4E135EA011C96428642A /* range_slider_end_indicator@3x.png in Resources */,
+				000CF4DF74622E299EA7E0E5C24FBC45 /* range_slider_start_indicator.png in Resources */,
+				83169ED7187D3838CDEDAF2C64C99C15 /* range_slider_start_indicator@2x.png in Resources */,
+				D10831219F51FFF32412CE7E11D3205D /* range_slider_start_indicator@3x.png in Resources */,
+				41B7BB49EC5B42D23847E1385B187916 /* rw_close.png in Resources */,
+				343D49FDDCFED7E3ABCB5B25750C1B86 /* rw_close@2x.png in Resources */,
+				AA579E23C1FBF8A6D9ED6E807C73BFE4 /* rw_close@3x.png in Resources */,
+				088CA8D29D60D64C7111B6186ECFB3EB /* sticker_adjust.png in Resources */,
+				91699844832C7FAF7ACEEC27640EFCE1 /* sticker_adjust@2x.png in Resources */,
+				CA8DC30F0BA9C2F852F0670683B0EBE2 /* sticker_adjust@3x.png in Resources */,
+				D706F45D7BA6A84FE39D0DDF04752819 /* sticker_close.png in Resources */,
+				07D299F9ED928ABE9FFD3A91A49E6AF2 /* sticker_close@2x.png in Resources */,
+				D71E06EEBF04EE38993B686BD89255C3 /* sticker_close@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FAF879E33A96CC4517FC2EA14AE8C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5180A421725F9F5F388FF62AF16F0C1F /* Pods-NWVideoTool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		697930D221ABAB0580E4640FBB2B63AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C4E3E70825C686FB80A230B1EE30BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D922FBD7EBEEE479A367DC795E44B1F /* Bundle+NWV.swift in Sources */,
+				8244C63128159F7000FD9C68 /* NWDispatchQueuePool.swift in Sources */,
+				51924BD062D5D1920CCD4BBC4180B2CB /* NWClipOverlayView.swift in Sources */,
+				B39E53FA1ACDC126883E1A5D6B243E51 /* NWClipVideoView.swift in Sources */,
+				BFEDA1CB09841DAF510F3313A83854F8 /* NWImageStickerView.swift in Sources */,
+				5C008EC16997F70FD213FBA10BA35430 /* NWRemoveWaterBlockView.swift in Sources */,
+				E9BC4019E2E1E2AE09559EF2EE0F6EE0 /* NWRemoveWaterView.swift in Sources */,
+				8244C62F28159DFD00FD9C68 /* NWVideoProgressImageView.swift in Sources */,
+				AC9791BA60E8AFC52D0BDA9788B271BE /* NWStickerItemView.swift in Sources */,
+				C7FD96037A0759700C09C180A2E7D114 /* NWStickerView.swift in Sources */,
+				ED207666F22859A06AF8919C09EF7E0A /* NWVideoRangeSliderView.swift in Sources */,
+				36EA4DDAA1D8CBCB491387311898281D /* NWVideoScrollProgressView.swift in Sources */,
+				64B738F0BFEF6B60F62F6120098B8091 /* NWVideoTool.swift in Sources */,
+				A7ED6E9713FA1652B1E2E7B437F6F40F /* NWVideoTool-dummy.m in Sources */,
+				79DE6781BFC102AE6DF241ABED25269F /* UIColor+NWV.swift in Sources */,
+				75A9BBA6386924C3E9FA4A7EA0A6EE2F /* UIImage+NWV.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB9E0FF869908C84D1D62143C950F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4689E55FE902FE6B77507CE044BE15A1 /* Pods-NWVideoTool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AA1310463944E81E4D4577CDC8B8B64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NWVideoTool-NWVideoTool";
+			target = 32E0B203668CCDE4FCBC21CB6973D571 /* NWVideoTool-NWVideoTool */;
+			targetProxy = 5A0F537C2DCED0EE47F9F17B89276BDB /* PBXContainerItemProxy */;
+		};
+		86EF6CCC8B77748E0C204201DF648754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NWVideoTool;
+			target = 61B9459352D985DB9F17F11C31ED5123 /* NWVideoTool */;
+			targetProxy = CE978BFB32984F8B1AA6AB0A2835FA89 /* PBXContainerItemProxy */;
+		};
+		AD441AC375F521EA7CC3980128C97A62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NWVideoTool_Example";
+			target = 357761BD386CB29EC54529B3B8B70980 /* Pods-NWVideoTool_Example */;
+			targetProxy = EAD7E3F4F4C8F0F5F4573F532CDDEFED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		042CC09EBBD2C6A6168C54785DD21452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF59020B307743FC1BF16FBB0EDA92FE /* Pods-NWVideoTool_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NWVideoTool_Tests/Pods-NWVideoTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NWVideoTool_Tests/Pods-NWVideoTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1B3FDA200EBEF19351622A2EAC4EA776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E1351812E039BDD8087E4C668916932 /* NWVideoTool.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NWVideoTool/NWVideoTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NWVideoTool/NWVideoTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NWVideoTool/NWVideoTool.modulemap";
+				PRODUCT_MODULE_NAME = NWVideoTool;
+				PRODUCT_NAME = NWVideoTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3AFAEA737C709A8487FC304432B8E555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F9FECA64180EC070C28D8ED41E234E /* Pods-NWVideoTool_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NWVideoTool_Example/Pods-NWVideoTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NWVideoTool_Example/Pods-NWVideoTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D78036DFF4AB7B27D43D0C7E007181D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4B9A6F505F2A10414CA9942486A7A8B /* Pods-NWVideoTool_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NWVideoTool_Example/Pods-NWVideoTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NWVideoTool_Example/Pods-NWVideoTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6808E1CD7717F5D6406FD64F2E1A16F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0D29BE32153ED91F2292047A72318A /* NWVideoTool.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NWVideoTool";
+				IBSC_MODULE = NWVideoTool;
+				INFOPLIST_FILE = "Target Support Files/NWVideoTool/ResourceBundle-NWVideoTool-NWVideoTool-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = NWVideoTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		AE557C02FDB797DD3FDA1BDA894A7E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0D29BE32153ED91F2292047A72318A /* NWVideoTool.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NWVideoTool/NWVideoTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NWVideoTool/NWVideoTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NWVideoTool/NWVideoTool.modulemap";
+				PRODUCT_MODULE_NAME = NWVideoTool;
+				PRODUCT_NAME = NWVideoTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B03CDDB42C6393BED655C52914EDBB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC2179DE35AA5B9CABF76C4BEEF4A14D /* Pods-NWVideoTool_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NWVideoTool_Tests/Pods-NWVideoTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NWVideoTool_Tests/Pods-NWVideoTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F65B2DCD2C3E712C2FBE5A713E6B5CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E1351812E039BDD8087E4C668916932 /* NWVideoTool.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NWVideoTool";
+				IBSC_MODULE = NWVideoTool;
+				INFOPLIST_FILE = "Target Support Files/NWVideoTool/ResourceBundle-NWVideoTool-NWVideoTool-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = NWVideoTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30D54199AB9A951AFE9DB870CA541F53 /* Build configuration list for PBXNativeTarget "NWVideoTool-NWVideoTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65B2DCD2C3E712C2FBE5A713E6B5CB8 /* Debug */,
+				6808E1CD7717F5D6406FD64F2E1A16F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54273BA8797D8C6E8B537690B206FDE5 /* Build configuration list for PBXNativeTarget "NWVideoTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B3FDA200EBEF19351622A2EAC4EA776 /* Debug */,
+				AE557C02FDB797DD3FDA1BDA894A7E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9209460E138F13E52DA5C307180B7D3 /* Build configuration list for PBXNativeTarget "Pods-NWVideoTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFAEA737C709A8487FC304432B8E555 /* Debug */,
+				4D78036DFF4AB7B27D43D0C7E007181D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE0D08468B355DE5C647BE0E8EE99F8D /* Build configuration list for PBXNativeTarget "Pods-NWVideoTool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042CC09EBBD2C6A6168C54785DD21452 /* Debug */,
+				B03CDDB42C6393BED655C52914EDBB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
