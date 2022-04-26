@@ -1,17 +1,17 @@
 .PHONY: default
 default:
-    echo "USAGE: make create/lint/push"
+	echo "USAGE: make create/lint/push"
 
 .PHONY: create
 create:
-    pod lib create NWVideoTool
+	pod lib create NWVideoTool
 
 .PHONY: lint 
 lint:
-    pod spec lint NWVideoTool.podspec --allow-warnings --no-clean --verbose
+	pod spec lint NWVideoTool.podspec --allow-warnings --no-clean --verbose
 
 .PHONY: push
 push:
-    pod spec lint NWVideoTool.podspec --allow-warnings
-    pod trunk push NWVideoTool.podspec --allow-warnings --allow-warnings
+	pod spec lint NWVideoTool.podspec --allow-warnings
+	pod trunk push NWVideoTool.podspec --allow-warnings --allow-warnings
 
